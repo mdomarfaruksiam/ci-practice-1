@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --size: 100px;
+}
+
+body {
+    padding: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.green {
+    width: var(--size);
+    height: calc(var(--size) * 0.6);
+    background: green;
+    position: relative;
+}
+
+.red {
+    width: calc(var(--size) * 0.4);
+    height: calc(var(--size) * 0.4);
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.stick {
+    width: calc(var(--size) * 0.02);
+    height: calc(var(--size) * 1.5);
+    background: rgb(7, 196, 7);
+}
+
+.whitePart {
+    width: var(--size);
+    height: calc(var(--size) * 0.6);
+    background: rgb(162, 157, 157);
+
+    border-radius: 50%;
+
+
+    position: relative;
+}
+
+.yellowPart {
+    width: calc(var(--size) * .3);
+    height: calc(var(--size) * .3);
+    background: yellowgreen;
+    position: absolute;
+
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
