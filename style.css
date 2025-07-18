@@ -1,3 +1,64 @@
-h1{
-    background: green;
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.raleway-font {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    color: inherit;
+}
+
+li {
+
+    list-style: none;
+}
+
+header {
+    background: rgb(177, 177, 235);
+}
+
+nav>ul>div,
+nav>ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav>ul div li a {
+    padding: 20px;
+}
+
+nav>ul div li a:hover {
+    background: rgb(215, 215, 235);
+}
+
+nav ul div li div {
+    width: 300px;
+    background: rgb(141, 147, 233);
+    position: absolute;
+    border-radius: 0 0 .35rem .35rem;
+    display: none;
+}
+
+nav ul div li:hover div {
+    display: block;
+}
+
+.login-menu {
+    left: auto;
+    right: 0;
+}
+
+div {
+    overflow: hidden;
 }
